@@ -1,0 +1,46 @@
+.categoria {
+	color: #d890cc;
+	text-decoration: none;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.categoria:hover {
+	color: #a175d5;
+}
+
+.oggettiNav {
+	float: none;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.bottoniNav {
+	margin-top: 50px;
+	float: none;
+	position: inherit;
+}
+
+li.nav-item {
+	margin-left: 16px;
+	font-size: 22px;
+}
+
+.scritta {
+	margin-top: -15px;
+}
+
+@media screen and (max-width : 970px) {
+
+	.scritta {
+		margin-top: 35px;
+	}
+	.foto {
+		width: 30rem
+	}
+	
+	.submenu{
+	left: 160px;
+	}
+}

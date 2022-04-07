@@ -1,0 +1,58 @@
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.taglia {
+	color: pink;
+	background-color: black;
+	opacity: 75%;
+	margin: -32px 5px 21px 5px;
+	font-size: 12px;
+}
+
+.tag {
+	position: absolute;
+}
+
+.hilite {
+	color: pink;
+	background-color: black;
+	opacity: 67%;
+	display: flex;
+	margin: -36px 4px 20px 5px;
+	justify-content: center;
+	padding: 2px 0px 2px 0;
+}
+
+h6 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	padding-left: 4px;
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+}
+
+#circle {
+	width: 100px;
+	height: 100px;
+	background: #0060A0;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+.bottone{
+	border: aliceblue;
+	padding: 0 0;
+	font-size: 40px;
+	line-height: 0;
+	border-radius: 7px;
+}
+
+
+img#copertina {
+    width: 70px;
+    height: 80px;
+}

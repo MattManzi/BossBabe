@@ -1,0 +1,42 @@
+@charset "ISO-8859-1";
+
+
+.menu {
+    
+    list-style-type:none;
+}
+    .toplevel {
+        display:block;
+        padding:0 10px;
+        line-height:2;
+        color:#fff;
+        text-decoration:none;
+        background:#f00;
+    }
+
+    /* Dropdowns */
+    .dropdown {
+        position:relative;
+        z-index:200;
+    }
+        .submenu {
+            position:absolute;
+            top:0;
+            left:0;
+            display:none;
+            width:200px;
+            list-style-type:none;
+            margin-top:3em;
+            z-index:200;
+        }
+            .hover .submenu {
+                display:block;
+            }
+            .submenu a {
+                display:block;
+                padding:5px;
+                color:#fff;
+                text-decoration:none;
+                background: #212529;
+            }
+    
